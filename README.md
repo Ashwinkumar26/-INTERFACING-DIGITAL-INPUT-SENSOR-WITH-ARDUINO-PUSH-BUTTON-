@@ -1,8 +1,8 @@
-## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## Experiment No-01-INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
+## DATE :26-02-2024
+## NAME : ASHWIN KUMAR M																			             
+## ROLLNUMBER :212221223001
+## DEPARTMENT :IT
 
 
 ## AIM:
@@ -57,13 +57,39 @@ FIGURE-02
 
 
 FIGURE -03
+![ROBO 1](https://github.com/AshwinAkash24/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/144979248/65600037-ca58-4850-b12e-d3c385d678d1)
 
 
 
 
-## PROGRAM 
- 
- 
+## PROGRAM
+```
+int led=3;
+int pushbutton=4;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if(pb==LOW)
+  {
+    digitalWrite(led,HIGH);
+    delay(500);
+    digitalWrite(led,LOW);
+    delay(600);
+  }
+  else
+  {
+     digitalWrite(led,LOW);
+     delay(600);
+  }
+}
+```
 
 
 
@@ -83,3 +109,9 @@ FIGURE -03
 
 [My image](username.github.com/repository/img/image.jpg)
 
+![ROBOM1](https://github.com/AshwinAkash24/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/144979248/7603fc2b-8725-4ca7-bfa6-8f9b7222b970)
+
+![ROBOM2](https://github.com/AshwinAkash24/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/144979248/2e1cc85d-c7d9-4640-a3a8-31514e8e9e9e)
+
+## Result:
+Hence,interfacing digital input sensor with ardiuo push button is successfully simulated.
