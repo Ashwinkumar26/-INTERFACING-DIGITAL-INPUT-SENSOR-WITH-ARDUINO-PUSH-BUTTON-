@@ -1,6 +1,6 @@
 ## Experiment No-01-INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
 ## DATE :26-02-2024
-## NAME : ASHWIN KUMAR M																			             
+## NAME : ASHWIN KUMAR K																			             
 ## ROLLNUMBER :212221223001
 ## DEPARTMENT :IT
 
